@@ -1,10 +1,10 @@
 // dwmblocks
 
 // cmd length
-#define CMDLENGTH 50
+#define CMDLENGTH 25
 
 // delimiter
-#define DELIMITER "  "
+#define DELIMITER " | "
 
 // block
 typedef struct {
@@ -17,12 +17,12 @@ typedef struct {
 
 // blocks
 static Block blocks[] = {
-	{"sb-mail",    1800, 1},
-	{"sb-music",   0,    2},
-	{"sb-disk",    1800, 4},
-	{"sb-memory",  10,   3},
-	{"sb-loadavg", 10,   9},
-	{"sb-volume",  0,    5},
-	{"sb-battery", 5,    6},
-	{"sb-date",    20,   7},
-	{"sb-network", 5,    8}};
+    {"music.sh",   1, 1},
+    {"pkgs.sh",    1, 2},
+    {"mail.sh",    1, 3},
+    {"rss.sh",     1, 4},
+    {"net.sh",     1, 5},
+    {"vol.sh",     1, 6},
+    {"monitor.sh", 1, 7},
+    {"time.sh",    1, 8},
+    {"date.sh",    1, 9}};
