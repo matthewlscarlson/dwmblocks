@@ -20,9 +20,8 @@ static Block blocks[] = {
     {"music.sh",   1, 1},
     {"pkgs.sh",    1, 2},
     {"mail.sh",    1, 3},
-    {"rss.sh",     1, 4},
-    {"net.sh",     1, 5},
-    {"vol.sh",     1, 6},
-    {"monitor.sh", 1, 7},
-    {"time.sh",    1, 8},
-    {"date.sh",    1, 9}};
+    {"net.sh",     1, 4},
+    {"vol.sh",     1, 5},
+    {"monitor.sh", 1, 6},
+    {"time.sh",    1, 7},
+    {"date.sh",    1, 8}};
