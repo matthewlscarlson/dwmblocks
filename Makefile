@@ -1,7 +1,7 @@
 .POSIX:
 
 PREFIX = /usr/local
-CC = gcc -fpermissive
+CC = gcc -Wno-error=incompatible-pointer-types
 
 dwmblocks: dwmblocks.o
 	$(CC) dwmblocks.o -lX11 -o dwmblocks
