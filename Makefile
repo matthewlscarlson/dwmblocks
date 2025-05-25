@@ -1,7 +1,7 @@
 .POSIX:
 
 PREFIX = /usr/local
-CC = gcc
+CC = gcc -fpermissive
 
 dwmblocks: dwmblocks.o
 	$(CC) dwmblocks.o -lX11 -o dwmblocks
